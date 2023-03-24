@@ -47,34 +47,30 @@ Collection do Postman
 https://www.getpostman.com/collections/c347ea3428d6b199b391
 
 ```bash
-# Busca paginada de clientes
-GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name
+# Busca de cidades
+GET /cities
 
 # Busca de cliente por id
 GET /clients/1
 
-# Inserção de novo cliente
-POST /clients
+# Inserção de nova cidade
+POST /cities
 {
-  "name": "Maria Silva",
-  "cpf": "12345678901",
-  "income": 6500.0,
-  "birthDate": "1994-07-20T10:30:00Z",
-  "children": 2
+  "name": "Recife"
 }
 
-# Atualização de cliente
-PUT /clients/1
+# Deleção de cidades
+DELETE /cities/5
+
+# Atualização de evento
+PUT /events/1
 {
-  "name": "Maria Silvaaa",
-  "cpf": "12345678901",
-  "income": 6500.0,
-  "birthDate": "1994-07-20T10:30:00Z",
-  "children": 2
+  "name": "Expo XP",
+  "date": "2021-05-18",
+  "url": "https://expoxp.com.br",
+  "cityId": 7
 }
 
-# Deleção de cliente
-DELETE /clients/1
 ```
 
 # Autor
