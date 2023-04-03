@@ -25,7 +25,7 @@ O projeto foi desenvolvido utilizando TDD, onde recebemos os testes e criamos a 
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: Java 17
+Pré-requisitos: Java
 
 [Tutorial de instalação Java](https://www.youtube.com/watch?v=QekeJBShCy4)
 
